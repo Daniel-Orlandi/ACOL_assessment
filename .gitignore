@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Data — large/sensitive files, not versioned
+data/*
+!data/.gitkeep
+
+# Claude Code local config
+.claude/
+
+# Generated artefacts — PDFs and HTML are rebuilt from source
+reports/*.pdf
+reports/*.html
+
+# Runtime artefacts
+reports/mlflow_run_local.json
+reports/02_model_summary.json
+reports/mlflow.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.Trash-0

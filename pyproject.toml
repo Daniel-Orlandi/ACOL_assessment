@@ -1,0 +1,20 @@
+[project]
+name = "acol-case"
+version = "0.1.0"
+description = "Priorização Inteligente de Solicitações para Revisão Humana — ACOL"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.0",
+    "lightgbm>=4.6.0",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "fpdf2>=2.8.7",
+    "pillow>=11.0",
+]
