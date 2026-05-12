@@ -283,7 +283,7 @@ Com apenas 18 descrições únicas em `descricao_item`, o sinal textual direto �
 | **F1 no threshold ótimo** | > 0.55 | Média harmônica de Precision e Recall no ponto de máximo F1 da curva PR. Captura o trade-off operacional real: quantos analistas são mobilizados vs. quantos casos reais são capturados. |
 | **Recall @ Precision=0.70** | > 0.50 | Restrição de negócio explícita: no máximo 30% de falsos positivos na fila de revisão. |
 
-> ⚠️ **Por que não acurácia?**
+>**Por que não acurácia?**
 > Com 86.8% de negativos, um modelo que sempre prevê "não prioritário" tem acurácia de 86.8% sem utilidade alguma. AUC-ROC e Average Precision são invariantes ao threshold e ao desbalanceamento.
 
 ### 7.3 Métricas de Negócio
